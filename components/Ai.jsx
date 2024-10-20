@@ -7,6 +7,13 @@ import { motion } from 'framer-motion';
 const Ai = () => {
   const tools = [
     {
+      name: 'Claude',
+      url: 'https://chat.openai.com',
+      description:
+        'Claude is a next generation AI assistant built for work and trained to be safe, accurate, and secure. ',
+      image: '/images/claude.png',
+    },
+    {
       name: 'ChatGPT',
       url: 'https://chat.openai.com',
       description:
@@ -20,18 +27,30 @@ const Ai = () => {
       image: '/images/dalle.webp',
     },
     {
+        name: 'ChaturJi',
+        url: 'https://www.chaturji.ai/',
+        description: 'Chaturji is an AI assistant that helps businesses access AIs, organize prompts, collaborate, and analyze usage.',
+        image: '/images/chaturji.png',
+    },
+    {
+        name: 'Gemini',
+        url: 'https://gemini.google.com/',
+        description: 'Gemini, formerly known as Bard, is a generative artificial intelligence chatbot developed by Google. ',
+        image: '/images/gemini.png',
+    },
+    {
+        name: 'Perplexity',
+        url: 'https://www.perplexity.ai/',
+        description: 'Perplexity AI is an AI-powered  search engine that answers queries using natural language predictive text. ',
+        image: '/images/perplexity.png',
+    },
+    {
       name: 'MidJourney',
       url: 'https://www.midjourney.com/',
       description: 'An AI tool that allows users to create artistic visuals through text prompts.',
       image: '/images/midjourney.png',
     },
-    {
-      name: 'ChaturJi',
-      url: 'https://www.chaturji.ai/',
-      description: 'Chaturji is an AI assistant that helps businesses access AIs, organize prompts, collaborate, and analyze usage.',
-      image: '/images/chaturji.png',
-    },
-  ];
+];
 
   return (
     <div className="min-h-screen bg-gray-900 text-white p-6">
