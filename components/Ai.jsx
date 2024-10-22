@@ -50,6 +50,18 @@ const Ai = () => {
       description: 'An AI tool that allows users to create artistic visuals through text prompts.',
       image: '/images/midjourney.png',
     },
+    {
+      name: 'PopAi',
+      url: 'https://www.popai.pro/',
+      description: 'An AI tool that allows users to Chat, Read, Write and Present with AI',
+      image: '/images/popai.svg',
+    },
+    {
+      name: 'AiXploria',
+      url: 'https://www.aixploria.com/en/ultimate-list-ai/',
+      description: 'Aixploria is a website dedicated to artificial intelligence that allows you to discover the best AI tools directory available online.',
+      image: '/images/AiXploria.webp',
+    },
 ];
 
   return (
